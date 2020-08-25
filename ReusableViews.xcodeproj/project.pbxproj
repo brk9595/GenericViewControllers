@@ -14,6 +14,7 @@
 		813D466B24F5AE810021FF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813D466924F5AE810021FF85 /* LaunchScreen.storyboard */; };
 		813D467324F5AFE90021FF85 /* CustomLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D467224F5AFE90021FF85 /* CustomLoginView.swift */; };
 		813D467524F5B6820021FF85 /* GenricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D467424F5B6820021FF85 /* GenricViewController.swift */; };
+		813D467724F5BE7C0021FF85 /* CustomLoginComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D467624F5BE7C0021FF85 /* CustomLoginComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		813D466C24F5AE810021FF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813D467224F5AFE90021FF85 /* CustomLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginView.swift; sourceTree = "<group>"; };
 		813D467424F5B6820021FF85 /* GenricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenricViewController.swift; sourceTree = "<group>"; };
+		813D467624F5BE7C0021FF85 /* CustomLoginComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				813D466224F5AE7F0021FF85 /* ViewController.swift */,
 				813D467424F5B6820021FF85 /* GenricViewController.swift */,
 				813D467224F5AFE90021FF85 /* CustomLoginView.swift */,
+				813D467624F5BE7C0021FF85 /* CustomLoginComponent.swift */,
 				813D466724F5AE810021FF85 /* Assets.xcassets */,
 				813D466924F5AE810021FF85 /* LaunchScreen.storyboard */,
 				813D466C24F5AE810021FF85 /* Info.plist */,
@@ -141,6 +144,7 @@
 			files = (
 				813D466324F5AE7F0021FF85 /* ViewController.swift in Sources */,
 				813D465F24F5AE7F0021FF85 /* AppDelegate.swift in Sources */,
+				813D467724F5BE7C0021FF85 /* CustomLoginComponent.swift in Sources */,
 				813D466124F5AE7F0021FF85 /* SceneDelegate.swift in Sources */,
 				813D467524F5B6820021FF85 /* GenricViewController.swift in Sources */,
 				813D467324F5AFE90021FF85 /* CustomLoginView.swift in Sources */,
