@@ -7,23 +7,27 @@
 
 import UIKit
 
-class GenricViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+public protocol AutoLayoutView {
+    func setupAutoLayoutConstraints(_ parentViewController: UIViewController?)
+}
 
-        // Do any additional setup after loading the view.
+public protocol RootView: AutoLayoutView {}
+
+// A protocol for views that will be contained in a GenericViewController
+extension RootView {
+    func setupAutoLayoutConstraints(_ parentViewController: UIViewController?) { }
+}
+
+open class GenricViewController<V: RootView>: UIViewController where V: UIView {
+    
+    public var rootView: V! {
+        return (self.view as! V)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override open func loadView() {
+        self.view = V()
+        self.rootView.setupAutoLayoutConstraints(self)
     }
-    */
 
 }

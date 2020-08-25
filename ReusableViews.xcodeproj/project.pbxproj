@@ -10,9 +10,10 @@
 		813D465F24F5AE7F0021FF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D465E24F5AE7F0021FF85 /* AppDelegate.swift */; };
 		813D466124F5AE7F0021FF85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D466024F5AE7F0021FF85 /* SceneDelegate.swift */; };
 		813D466324F5AE7F0021FF85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D466224F5AE7F0021FF85 /* ViewController.swift */; };
-		813D466624F5AE7F0021FF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813D466424F5AE7F0021FF85 /* Main.storyboard */; };
 		813D466824F5AE810021FF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813D466724F5AE810021FF85 /* Assets.xcassets */; };
 		813D466B24F5AE810021FF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813D466924F5AE810021FF85 /* LaunchScreen.storyboard */; };
+		813D467324F5AFE90021FF85 /* CustomLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D467224F5AFE90021FF85 /* CustomLoginView.swift */; };
+		813D467524F5B6820021FF85 /* GenricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D467424F5B6820021FF85 /* GenricViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		813D465E24F5AE7F0021FF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		813D466024F5AE7F0021FF85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		813D466224F5AE7F0021FF85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		813D466524F5AE7F0021FF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		813D466724F5AE810021FF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813D466A24F5AE810021FF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813D466C24F5AE810021FF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813D467224F5AFE90021FF85 /* CustomLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginView.swift; sourceTree = "<group>"; };
+		813D467424F5B6820021FF85 /* GenricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenricViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 				813D465E24F5AE7F0021FF85 /* AppDelegate.swift */,
 				813D466024F5AE7F0021FF85 /* SceneDelegate.swift */,
 				813D466224F5AE7F0021FF85 /* ViewController.swift */,
-				813D466424F5AE7F0021FF85 /* Main.storyboard */,
+				813D467424F5B6820021FF85 /* GenricViewController.swift */,
+				813D467224F5AFE90021FF85 /* CustomLoginView.swift */,
 				813D466724F5AE810021FF85 /* Assets.xcassets */,
 				813D466924F5AE810021FF85 /* LaunchScreen.storyboard */,
 				813D466C24F5AE810021FF85 /* Info.plist */,
@@ -126,7 +129,6 @@
 			files = (
 				813D466B24F5AE810021FF85 /* LaunchScreen.storyboard in Resources */,
 				813D466824F5AE810021FF85 /* Assets.xcassets in Resources */,
-				813D466624F5AE7F0021FF85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,20 +142,14 @@
 				813D466324F5AE7F0021FF85 /* ViewController.swift in Sources */,
 				813D465F24F5AE7F0021FF85 /* AppDelegate.swift in Sources */,
 				813D466124F5AE7F0021FF85 /* SceneDelegate.swift in Sources */,
+				813D467524F5B6820021FF85 /* GenricViewController.swift in Sources */,
+				813D467324F5AFE90021FF85 /* CustomLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		813D466424F5AE7F0021FF85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				813D466524F5AE7F0021FF85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		813D466924F5AE810021FF85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
