@@ -86,14 +86,4 @@ class CustomLoginView: UIView {
             passWordField.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -20)
         ])
     }
-    
-    func setupAutoLayoutConstraints(_ parentViewController: UIViewController?) {
-        guard let parentViewController = parentViewController else {
-            fatalError()
-        }
-        
-        
-        
-        
-    }
 }
